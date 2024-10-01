@@ -52,5 +52,7 @@ jobs:
             
             See it or modify it here: 
               * ${{ steps.create-issue.outputs.url }}
+            
+            _This unique comment uses the very cool [taoliujun/action-unique-comment](https://github.com/marketplace/actions/unique-comment). Thank you <3_
 
       
