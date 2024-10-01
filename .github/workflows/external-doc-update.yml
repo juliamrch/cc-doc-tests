@@ -42,7 +42,7 @@ jobs:
           update_existing: false
           search_existing: all     
       - name: Comment PR
-        if: ${{ (github.run_number == 1 && steps.changed-files-specific.outputs.any_changed == 'true') }} || ${{ (steps.changed-files-specific.outputs.any_changed == 'true' && steps.create-issue.outcome != 'success') }}
+        if: ${{ (github.run_number == 1 && steps.changed-files-specific.outputs.any_changed == 'true' && steps.create-issue.outcome == 'success') }}
         env:
           CHANGED_FILES: ${{ steps.changed-files-specific.outputs.all_changed_files }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
