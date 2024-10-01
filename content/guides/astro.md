@@ -16,6 +16,7 @@ type: "docs"
 comments: false
 draft: false
 ---
+Test external doc automation
 
 If you need an example source code, get [Astrowind](https://github.com/onwidget/astrowind) (you'll need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)):
 ```bash
