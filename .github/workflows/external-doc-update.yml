@@ -39,7 +39,7 @@ jobs:
         with:
           filename: .github/external-doc-issue.yml
           assignees: ${{ github.event.pull_request.user.login }}
-          update_existing: false
+          update_existing: true
           search_existing: all
       - name: Create or update a comment
         env:
