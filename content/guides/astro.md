@@ -19,6 +19,8 @@ draft: false
 
 1st run
 
+2nd run
+
 If you need an example source code, get [Astrowind](https://github.com/onwidget/astrowind) (you'll need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)):
 ```bash
 git clone https://github.com/onwidget/astrowind myStaticApp
